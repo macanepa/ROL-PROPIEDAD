@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ROL-PROPIEDADES</title>
+        <link rel='stylesheet' href='../css/main.css'>
+        <link rel='stylesheet' href='../css/forms.css'>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#home">ROL Propiedades</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="container">
+            <div class="select-menu">
+                    <button>ROL Individual</button>
+                    <button>Procesar por lote</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <form action="main.html">
+                <select id="region" name="region">
+                    <option value="Metropolitana">RM</option>
+                    <option value="Valparaiso">Valparaiso</option>
+                    <option value="Antofagasta">Antofagasta</option>
+                </select>
+
+                <select id="Comuna" name="Comuna">
+                    <option value="Lo Barnechea">Lo Barnechea</option>
+                    <option value="Vitacura">Vitacura</option>
+                    <option value="Las Condes">Las Condes</option>
+                </select>
+
+                <input type="text" id="nombre_calle" name="nombre_calle" placeholder="Nombre de Calle">
+                <div class="row">
+                    <div class="column">
+                        <input type="text" id="num_municipal" name="num_municipal" placeholder="Número Municipal">
+                    </div>
+                    <div class="column">
+                        <input type="text" id="detalle" name="detalle" placeholder="Detalle">
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column">
+                        <input type="submit" value="Buscar Rol">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="container" style="width: 15vw;">
+            <form action="main.html">
+                ROL: 13135-024-975
+            </form>
+        </div>
+
+        <footer class="footer">
+            <div class="container-f">
+                <p class="float-right">
+                </p>
+                <span class="text-muted">
+                    <img src="../Assets/LOGO.png" style="width: 75px;">
+                </span>
+            </div>
+        </footer>
+
+    </body>
+</html>
